@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+    padding-top: 800px;
+    text-align: center;
+    background-color: deeppink;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: white;
+    background: linear-gradient(#0328fc 0%, #fc03e3 100%);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    display: table;
+
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#span {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Courgette', cursive;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    background: linear-gradient(#7613e8 0%, #e843ac 100%);
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 6px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.list {
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    display: inline;
+}
+
+.list:hover {
+    background-color: darkviolet;
+    font-size: 60px;
+}
+
+.menu {
+    margin-top: 0px;
+    text-align: center;
+    top: 0px;
+    list-style: none;
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    background-color: deeppink;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    width: 320px;
+    height: 320px;
+}
+
+#hobby {
+    background: linear-gradient(#03fc24 0%, #03fcf4 100%);
+}
+
+#book {
+    background: linear-gradient(#fc0303 0%, #fcf803 100%);
+}
+
+#contact {
+    background: linear-gradient(#fc0303 0%, #d203fc 100%);
+}
+
+#photo {
+    width: 180px;
+    margin-bottom: 120px;
+    border-radius: 200%;
+}
+
+.in:hover {
+    transform: scale(0.9);
+    #0af0dd
+}
+
+.Au {
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: ridge;
+    border-width: 25px;
+    border-bottom-color: aqua;
+    border-left-color: fuchsia;
+    border-top-color: fuchsia;
+    border-right-color: aqua;
+}
+
+#apps {
+    background: linear-gradient(#4b0af0 0%, #f00a57 100%);
+}
+
+#games {
+    background: linear-gradient(#4b0af0 0%, #f00a57 100%);
+}
+
+#chatbot {
+    background: linear-gradient(#4b0af0 0%, #f00a57 100%);
+}
+
+#in {
+    background: linear-gradient(#0af0dd 0%, #f03ed5 100%);
+}
+
+.Au:hover {
+    transform: scale(0.9)
+}
+
+.in {
+    margin: 100px;
+}
+
+#website {
+    background-color: linear-gradient(#4b0af0 0%, #f00a57 100%);
+}
+
+#contact iframe {
+    width: 100%;
+}
